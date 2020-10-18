@@ -16,5 +16,6 @@ module.exports = function towelSort (matrix) {
     for (let i = 1; i < matrix.length; i++){
       arr = arr.concat(matrix[i]);
     }
-  } return arr;
+  }
+  return arr;
 }
